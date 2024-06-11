@@ -1,11 +1,11 @@
 import React from 'react';
 import {StyleSheet, Text, View} from 'react-native';
-import ReminderCreation from './src/ReminderCreation';
+import Navigation from './src/Navigation';
 
 const App = () => {
   return (
     <View style={styles.container}>
-      <ReminderCreation />
+      <Navigation />
     </View>
   );
 };
